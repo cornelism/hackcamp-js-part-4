@@ -1,0 +1,507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lodash library chunk should chunk 1`] = `
+Array [
+  Array [
+    "a",
+  ],
+  Array [
+    "b",
+  ],
+  Array [
+    12,
+  ],
+  Array [
+    true,
+  ],
+  Array [
+    false,
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    null,
+  ],
+  Array [
+    "aa",
+  ],
+]
+`;
+
+exports[`Lodash library chunk should chunk 2`] = `
+Array [
+  Array [
+    "a",
+    "b",
+  ],
+  Array [
+    12,
+    true,
+  ],
+  Array [
+    false,
+    undefined,
+  ],
+  Array [
+    null,
+    "aa",
+  ],
+]
+`;
+
+exports[`Lodash library chunk should chunk 3`] = `
+Array [
+  Array [
+    "a",
+    "b",
+    12,
+  ],
+  Array [
+    true,
+    false,
+    undefined,
+  ],
+  Array [
+    null,
+    "aa",
+  ],
+]
+`;
+
+exports[`Lodash library chunk should chunk 4`] = `Array []`;
+
+exports[`Lodash library chunk should chunk 5`] = `
+Array [
+  Array [
+    42,
+  ],
+]
+`;
+
+exports[`Lodash library chunk should chunk 6`] = `Array []`;
+
+exports[`Lodash library chunk should chunk 7`] = `Array []`;
+
+exports[`Lodash library chunk should chunk 8`] = `Array []`;
+
+exports[`Lodash library compact should compact 1`] = `
+Array [
+  1,
+  2,
+  Object {
+    "a": 32,
+  },
+]
+`;
+
+exports[`Lodash library entries should pair values in a class 1`] = `
+Array [
+  Array [
+    "a",
+    32,
+  ],
+  Array [
+    "b",
+    45,
+  ],
+]
+`;
+
+exports[`Lodash library entries should pair values in a function 1`] = `
+Array [
+  Array [
+    "a",
+    32,
+  ],
+  Array [
+    "b",
+    45,
+  ],
+]
+`;
+
+exports[`Lodash library entries should pair values in an object 1`] = `
+Array [
+  Array [
+    "a",
+    32,
+  ],
+  Array [
+    "b",
+    45,
+  ],
+]
+`;
+
+exports[`Lodash library findKey should work with functions 1`] = `"barney"`;
+
+exports[`Lodash library findKey should work with objects 1`] = `"pebbles"`;
+
+exports[`Lodash library flatten should flatten 1`] = `
+Array [
+  1,
+  2,
+  false,
+  Object {
+    "a": 32,
+  },
+  NaN,
+  null,
+  undefined,
+]
+`;
+
+exports[`Lodash library flatten should flatten 2`] = `
+Array [
+  1,
+  2,
+  Array [
+    false,
+    Object {
+      "a": 32,
+    },
+  ],
+  NaN,
+  null,
+  Array [
+    Object {
+      "undefined": undefined,
+    },
+  ],
+]
+`;
+
+exports[`Lodash library flatten should flatten 3`] = `
+Array [
+  Array [
+    Array [
+      Array [
+        Array [
+          Array [
+            Array [
+              Array [
+                Array [
+                  Array [
+                    Array [
+                      Array [
+                        "Sorry",
+                      ],
+                    ],
+                  ],
+                ],
+              ],
+            ],
+          ],
+        ],
+      ],
+    ],
+  ],
+]
+`;
+
+exports[`Lodash library flattenDeep should flatten recursively 1`] = `
+Array [
+  1,
+  2,
+  false,
+  Object {
+    "a": 32,
+  },
+  NaN,
+  null,
+  undefined,
+]
+`;
+
+exports[`Lodash library flattenDeep should flatten recursively 2`] = `
+Array [
+  1,
+  2,
+  false,
+  Object {
+    "a": 32,
+  },
+  NaN,
+  null,
+  Object {
+    "undefined": undefined,
+  },
+]
+`;
+
+exports[`Lodash library flattenDeep should flatten recursively 3`] = `
+Array [
+  "Sorry",
+]
+`;
+
+exports[`Lodash library forEachObjIndexed should map values of an object 1`] = `
+Array [
+  Array [
+    33,
+    "a",
+  ],
+  Array [
+    undefined,
+    "a",
+  ],
+  Array [
+    null,
+    "b",
+  ],
+  Array [
+    true,
+    "c",
+  ],
+]
+`;
+
+exports[`Lodash library forEachObjIndexed should map values of an object 2`] = `Array []`;
+
+exports[`Lodash library forEachObjIndexed should map values of an object 3`] = `116`;
+
+exports[`Lodash library forEachObjIndexed should map values of an object 4`] = `"My name is Antonio"`;
+
+exports[`Lodash library groupBy should group 1`] = `
+Object {
+  "F": Array [
+    Object {
+      "name": "Louise",
+      "sex": "F",
+    },
+  ],
+  "M": Array [
+    Object {
+      "name": "Robert",
+      "sex": "M",
+    },
+    Object {
+      "name": "Bob",
+      "sex": "M",
+    },
+  ],
+}
+`;
+
+exports[`Lodash library identity Should return the same value that has been passed 1`] = `1`;
+
+exports[`Lodash library identity Should return the same value that has been passed 2`] = `Object {}`;
+
+exports[`Lodash library identity Should return the same value that has been passed 3`] = `"Hackages"`;
+
+exports[`Lodash library identity Should return the same value that has been passed 4`] = `1`;
+
+exports[`Lodash library map it should return the entire array as the third parameter 1`] = `
+Array [
+  1,
+  2,
+]
+`;
+
+exports[`Lodash library map it should return the index 1`] = `3`;
+
+exports[`Lodash library map it should work with the identity function 1`] = `
+Array [
+  1,
+  2,
+  3,
+  4,
+]
+`;
+
+exports[`Lodash library memoize recompute with new arguments 1`] = `
+Array [
+  42,
+  "hello",
+  true,
+]
+`;
+
+exports[`Lodash library memoize recompute with new arguments 2`] = `
+Array [
+  43,
+]
+`;
+
+exports[`Lodash library memoize should compute the value only once 1`] = `
+Array [
+  42,
+]
+`;
+
+exports[`Lodash library memoize should compute the value only once 2`] = `
+Array [
+  42,
+]
+`;
+
+exports[`Lodash library memoize should work with multiple arguments 1`] = `
+Array [
+  42,
+  "hello",
+  true,
+]
+`;
+
+exports[`Lodash library memoize should work with multiple arguments 2`] = `
+Array [
+  42,
+  "hello",
+  true,
+]
+`;
+
+exports[`Lodash library uniq should remove duplicate 1`] = `
+Array [
+  1,
+  2,
+  3,
+  4,
+]
+`;
+
+exports[`Lodash library uniq should remove duplicate 2`] = `
+Array [
+  1,
+]
+`;
+
+exports[`Lodash library uniq should remove duplicate 3`] = `
+Array [
+  null,
+  true,
+]
+`;
+
+exports[`Lodash library uniq should remove duplicate 4`] = `
+Array [
+  Object {
+    "a": 32,
+  },
+  Object {
+    "a": 32,
+    "b": 21,
+  },
+]
+`;
+
+exports[`Lodash library zip should zip 1`] = `
+Array [
+  Array [
+    "a",
+    1,
+    true,
+  ],
+  Array [
+    "b",
+    2,
+    false,
+  ],
+]
+`;
+
+exports[`Lodash library zip should zip 2`] = `
+Array [
+  Array [
+    "a",
+    1,
+    true,
+  ],
+  Array [
+    undefined,
+    2,
+    true,
+  ],
+  Array [
+    undefined,
+    undefined,
+    false,
+  ],
+]
+`;
+
+exports[`Lodash library zip should zip 3`] = `
+Array [
+  Array [
+    "a",
+    1,
+    true,
+  ],
+  Array [
+    "b",
+    2,
+    undefined,
+  ],
+  Array [
+    "c",
+    undefined,
+    undefined,
+  ],
+]
+`;
+
+exports[`Lodash library zip should zip 4`] = `
+Array [
+  Array [
+    "hello",
+    undefined,
+  ],
+]
+`;
+
+exports[`Lodash library zip should zip 5`] = `
+Array [
+  Array [
+    32,
+  ],
+]
+`;
+
+exports[`Lodash library zip should zip 6`] = `
+Array [
+  Array [
+    32,
+  ],
+]
+`;
+
+exports[`Lodash library zip should zip 7`] = `Array []`;
+
+exports[`Lodash library zipObject should zip 1`] = `
+Object {
+  "a": 1,
+  "b": 2,
+}
+`;
+
+exports[`Lodash library zipObject should zip 2`] = `
+Object {
+  "a": 1,
+}
+`;
+
+exports[`Lodash library zipObject should zip 3`] = `
+Object {
+  "a": 1,
+  "b": undefined,
+}
+`;
+
+exports[`Lodash library zipObject should zip 4`] = `
+Object {
+  "hello": true,
+}
+`;
+
+exports[`Lodash library zipObject should zip 5`] = `
+Object {
+  "32": false,
+}
+`;
+
+exports[`Lodash library zipObject should zip 6`] = `
+Object {
+  "true": "or not",
+}
+`;
